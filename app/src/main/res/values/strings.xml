@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CS639SpringHW1</string>
+    <string name="bird_description">Birds have feathers, wings, lay eggs and are warm blooded.
+There are around 10000 different species of birds worldwide.
+There are around 10000 different species of birds worldwide</string>
+    <string name="cat_description"> Cats can pass their body through any space which they can fit their heads through..</string>
+    <string name="dog_description">Dogs’ noses secrete a thin layer of mucous that helps them absorb scent. They then lick their noses to sample the scent through their mouth.</string>
+    <string name="dog_iv_description"> Dog</string>
+    <string name="cat_iv_description">cat</string>
+    <string name="bird_iv_description">bird</string>
+</resources>

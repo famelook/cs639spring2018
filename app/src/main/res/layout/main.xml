@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:weightSum="5.0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="0dp"
+        android:layout_weight="5.0"
+        android:layout_width="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="4">
+
+            <ImageView
+                android:contentDescription="@string/bird_iv_description"
+                android:id="@+id/bird_iv"
+                android:layout_weight="1"
+                android:src="@drawable/bird"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+             <TextView
+                android:id="@+id/bird_tv"
+                android:layout_weight="3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/bird_description"
+                android:visibility="invisible"
+                android:layout_marginStart="20dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:weightSum="4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <ImageView
+                android:src="@drawable/cat"
+                android:contentDescription="@string/cat_iv_description"
+                android:id="@+id/cat_iv"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_weight="3"
+                android:id="@+id/cat_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/cat_description"
+                android:visibility="invisible"
+                android:layout_marginStart="20dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:weightSum="4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_weight="1"
+                android:id="@+id/dog_iv"
+                android:src="@drawable/dog"
+                android:contentDescription="@string/dog_iv_description"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_weight="3"
+                android:id="@+id/dog_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/dog_description"
+                android:visibility="invisible"
+                android:layout_marginStart="20dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+            <View
+                android:id="@+id/orange_color"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@color/orange"
+                android:layout_margin="10dp" />
+
+            <View
+                android:id="@+id/blue_color"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@color/blue"
+                android:layout_margin="10dp"/>
+
+            <View
+                android:id="@+id/maroon_color"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@color/Maroon"
+                android:layout_margin="10dp"/>
+
+            <View
+                android:id="@+id/purple_color"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@color/purple"
+                android:layout_margin="10dp"/>
+
+            <View
+                android:id="@+id/green_color"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@color/green"
+                android:layout_margin="10dp"/>
+    </LinearLayout>
+</LinearLayout>
